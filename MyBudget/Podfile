@@ -6,5 +6,8 @@ target 'MyBudget' do
 use_frameworks!
 
 # Pods for MyBudget
+pod 'RealmSwift'
+pod 'IQKeyboardManagerSwift'
+pod 'Charts'
 
 end

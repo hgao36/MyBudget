@@ -16,8 +16,30 @@
 		B8EF06ED21B8E67000A020FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8EF06EB21B8E67000A020FD /* LaunchScreen.storyboard */; };
 		B8EF06F821B8E67100A020FD /* MyBudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EF06F721B8E67100A020FD /* MyBudgetTests.swift */; };
 		B8EF070321B8E67100A020FD /* MyBudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EF070221B8E67100A020FD /* MyBudgetUITests.swift */; };
-		B8EF071121B8E75400A020FD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EF071021B8E75400A020FD /* libsqlite3.tbd */; };
-		B8EF071321B8E75900A020FD /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EF071221B8E75900A020FD /* FMDB.framework */; };
+		B8EF072321B8EC4700A020FD /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EF072221B8EC4700A020FD /* RealmSwift.framework */; };
+		B8EF072521B8EF0000A020FD /* AddBudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EF072421B8EF0000A020FD /* AddBudgetViewController.swift */; };
+		B8EF072B21B8F0AA00A020FD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EF072A21B8F0AA00A020FD /* MapViewController.swift */; };
+		B8EF07EB21BE0B5300A020FD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EF07EA21BE0B5300A020FD /* MapKit.framework */; };
+		B8EF07F021BE1A1600A020FD /* BudgetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EF07EE21BE1A1600A020FD /* BudgetTableViewCell.swift */; };
+		B8EF07F121BE1A1600A020FD /* BudgetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EF07EF21BE1A1600A020FD /* BudgetTableViewCell.xib */; };
+		B8F9EEEA21BE4170009EACFA /* Charts@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EEE921BE4170009EACFA /* Charts@3x.png */; };
+		B8F9EEEC21BE4215009EACFA /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9EEEB21BE4215009EACFA /* ChartsViewController.swift */; };
+		B8F9EEF421BE4557009EACFA /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9EEF221BE4557009EACFA /* DemoBaseViewController.swift */; };
+		B8F9EEF721BE4E65009EACFA /* ascending@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EEF521BE4E65009EACFA /* ascending@3x.png */; };
+		B8F9EEF821BE4E65009EACFA /* descending@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EEF621BE4E65009EACFA /* descending@3x.png */; };
+		B8F9EEFA21BE51E2009EACFA /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EEF921BE51E1009EACFA /* bg.jpg */; };
+		B8F9EEFF21BE5587009EACFA /* date.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EEFB21BE5585009EACFA /* date.jpg */; };
+		B8F9EF0021BE5587009EACFA /* address.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EEFC21BE5586009EACFA /* address.jpg */; };
+		B8F9EF0121BE5587009EACFA /* expense.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EEFD21BE5586009EACFA /* expense.jpg */; };
+		B8F9EF0221BE5587009EACFA /* price.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EEFE21BE5586009EACFA /* price.jpg */; };
+		B8F9EF0421BE5B99009EACFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9EF0321BE5B99009EACFA /* LoginViewController.swift */; };
+		B8F9EF0721BE5D6D009EACFA /* password.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EF0521BE5D6D009EACFA /* password.jpg */; };
+		B8F9EF0821BE5D6D009EACFA /* username.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EF0621BE5D6D009EACFA /* username.jpg */; };
+		B8F9EF1821BEE9A7009EACFA /* type3.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EF1321BEE9A4009EACFA /* type3.png */; };
+		B8F9EF1921BEE9A7009EACFA /* type2.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EF1421BEE9A4009EACFA /* type2.png */; };
+		B8F9EF1A21BEE9A7009EACFA /* type4.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EF1521BEE9A5009EACFA /* type4.png */; };
+		B8F9EF1B21BEE9A7009EACFA /* type5.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EF1621BEE9A6009EACFA /* type5.png */; };
+		B8F9EF1C21BEE9A7009EACFA /* type1.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F9EF1721BEE9A6009EACFA /* type1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +78,30 @@
 		B8EF070421B8E67100A020FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8EF071021B8E75400A020FD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		B8EF071221B8E75900A020FD /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EF072221B8EC4700A020FD /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EF072421B8EF0000A020FD /* AddBudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetViewController.swift; sourceTree = "<group>"; };
+		B8EF072A21B8F0AA00A020FD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B8EF07EA21BE0B5300A020FD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B8EF07EE21BE1A1600A020FD /* BudgetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTableViewCell.swift; sourceTree = "<group>"; };
+		B8EF07EF21BE1A1600A020FD /* BudgetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BudgetTableViewCell.xib; sourceTree = "<group>"; };
+		B8F9EEE921BE4170009EACFA /* Charts@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Charts@3x.png"; sourceTree = "<group>"; };
+		B8F9EEEB21BE4215009EACFA /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		B8F9EEF221BE4557009EACFA /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
+		B8F9EEF521BE4E65009EACFA /* ascending@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ascending@3x.png"; sourceTree = "<group>"; };
+		B8F9EEF621BE4E65009EACFA /* descending@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "descending@3x.png"; sourceTree = "<group>"; };
+		B8F9EEF921BE51E1009EACFA /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		B8F9EEFB21BE5585009EACFA /* date.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = date.jpg; sourceTree = "<group>"; };
+		B8F9EEFC21BE5586009EACFA /* address.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = address.jpg; sourceTree = "<group>"; };
+		B8F9EEFD21BE5586009EACFA /* expense.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = expense.jpg; sourceTree = "<group>"; };
+		B8F9EEFE21BE5586009EACFA /* price.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = price.jpg; sourceTree = "<group>"; };
+		B8F9EF0321BE5B99009EACFA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B8F9EF0521BE5D6D009EACFA /* password.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = password.jpg; sourceTree = "<group>"; };
+		B8F9EF0621BE5D6D009EACFA /* username.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = username.jpg; sourceTree = "<group>"; };
+		B8F9EF1321BEE9A4009EACFA /* type3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type3.png; sourceTree = "<group>"; };
+		B8F9EF1421BEE9A4009EACFA /* type2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type2.png; sourceTree = "<group>"; };
+		B8F9EF1521BEE9A5009EACFA /* type4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type4.png; sourceTree = "<group>"; };
+		B8F9EF1621BEE9A6009EACFA /* type5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type5.png; sourceTree = "<group>"; };
+		B8F9EF1721BEE9A6009EACFA /* type1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = type1.png; sourceTree = "<group>"; };
 		C124BA8DE514B3FF82F6095E /* Pods-MyBudget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBudget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyBudget/Pods-MyBudget.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,8 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8EF071321B8E75900A020FD /* FMDB.framework in Frameworks */,
-				B8EF071121B8E75400A020FD /* libsqlite3.tbd in Frameworks */,
+				B8EF07EB21BE0B5300A020FD /* MapKit.framework in Frameworks */,
+				B8EF072321B8EC4700A020FD /* RealmSwift.framework in Frameworks */,
 				95E17C00FA6F1FAA250F9103 /* Pods_MyBudget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +136,8 @@
 		B46C7DB75B716813CBE18F0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8EF07EA21BE0B5300A020FD /* MapKit.framework */,
+				B8EF072221B8EC4700A020FD /* RealmSwift.framework */,
 				B8EF071221B8E75900A020FD /* FMDB.framework */,
 				B8EF071021B8E75400A020FD /* libsqlite3.tbd */,
 				B41F4FEFF5A6983A9A61EC24 /* Pods_MyBudget.framework */,
@@ -123,7 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				B8EF06DF21B8E67000A020FD /* AppDelegate.swift */,
-				B8EF06E121B8E67000A020FD /* ViewController.swift */,
+				B8EF072921B8EF0B00A020FD /* ViewController */,
+				B8EF07ED21BE19FF00A020FD /* View */,
+				B8F9EEE821BE4086009EACFA /* image */,
 				B8EF06E321B8E67000A020FD /* Main.storyboard */,
 				B8EF06E921B8E67000A020FD /* Assets.xcassets */,
 				B8EF06EB21B8E67000A020FD /* LaunchScreen.storyboard */,
@@ -151,6 +201,50 @@
 			path = MyBudgetUITests;
 			sourceTree = "<group>";
 		};
+		B8EF072921B8EF0B00A020FD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B8F9EEF221BE4557009EACFA /* DemoBaseViewController.swift */,
+				B8EF06E121B8E67000A020FD /* ViewController.swift */,
+				B8EF072421B8EF0000A020FD /* AddBudgetViewController.swift */,
+				B8EF072A21B8F0AA00A020FD /* MapViewController.swift */,
+				B8F9EEEB21BE4215009EACFA /* ChartsViewController.swift */,
+				B8F9EF0321BE5B99009EACFA /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B8EF07ED21BE19FF00A020FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8EF07EE21BE1A1600A020FD /* BudgetTableViewCell.swift */,
+				B8EF07EF21BE1A1600A020FD /* BudgetTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8F9EEE821BE4086009EACFA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B8F9EF1721BEE9A6009EACFA /* type1.png */,
+				B8F9EF1421BEE9A4009EACFA /* type2.png */,
+				B8F9EF1321BEE9A4009EACFA /* type3.png */,
+				B8F9EF1521BEE9A5009EACFA /* type4.png */,
+				B8F9EF1621BEE9A6009EACFA /* type5.png */,
+				B8F9EF0521BE5D6D009EACFA /* password.jpg */,
+				B8F9EF0621BE5D6D009EACFA /* username.jpg */,
+				B8F9EEFC21BE5586009EACFA /* address.jpg */,
+				B8F9EEFB21BE5585009EACFA /* date.jpg */,
+				B8F9EEFE21BE5586009EACFA /* price.jpg */,
+				B8F9EEFD21BE5586009EACFA /* expense.jpg */,
+				B8F9EEF921BE51E1009EACFA /* bg.jpg */,
+				B8F9EEF521BE4E65009EACFA /* ascending@3x.png */,
+				B8F9EEF621BE4E65009EACFA /* descending@3x.png */,
+				B8F9EEE921BE4170009EACFA /* Charts@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		C4A3C55983D934FDE89E59F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +265,7 @@
 				B8EF06D821B8E67000A020FD /* Sources */,
 				B8EF06D921B8E67000A020FD /* Frameworks */,
 				B8EF06DA21B8E67000A020FD /* Resources */,
+				83BE4718F27FEBD6CF38CA80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,9 +360,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F9EF1921BEE9A7009EACFA /* type2.png in Resources */,
+				B8F9EEF721BE4E65009EACFA /* ascending@3x.png in Resources */,
+				B8F9EF1A21BEE9A7009EACFA /* type4.png in Resources */,
+				B8F9EF1C21BEE9A7009EACFA /* type1.png in Resources */,
+				B8F9EF0821BE5D6D009EACFA /* username.jpg in Resources */,
 				B8EF06ED21B8E67000A020FD /* LaunchScreen.storyboard in Resources */,
+				B8F9EF0021BE5587009EACFA /* address.jpg in Resources */,
+				B8F9EF0721BE5D6D009EACFA /* password.jpg in Resources */,
+				B8F9EF0121BE5587009EACFA /* expense.jpg in Resources */,
 				B8EF06EA21B8E67000A020FD /* Assets.xcassets in Resources */,
+				B8F9EEF821BE4E65009EACFA /* descending@3x.png in Resources */,
+				B8F9EEFF21BE5587009EACFA /* date.jpg in Resources */,
+				B8EF07F121BE1A1600A020FD /* BudgetTableViewCell.xib in Resources */,
+				B8F9EEEA21BE4170009EACFA /* Charts@3x.png in Resources */,
+				B8F9EEFA21BE51E2009EACFA /* bg.jpg in Resources */,
 				B8EF06E521B8E67000A020FD /* Main.storyboard in Resources */,
+				B8F9EF0221BE5587009EACFA /* price.jpg in Resources */,
+				B8F9EF1821BEE9A7009EACFA /* type3.png in Resources */,
+				B8F9EF1B21BEE9A7009EACFA /* type5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +417,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		83BE4718F27FEBD6CF38CA80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyBudget/Pods-MyBudget-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyBudget/Pods-MyBudget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -313,9 +448,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F9EF0421BE5B99009EACFA /* LoginViewController.swift in Sources */,
+				B8F9EEF421BE4557009EACFA /* DemoBaseViewController.swift in Sources */,
 				B8EF06E221B8E67000A020FD /* ViewController.swift in Sources */,
+				B8F9EEEC21BE4215009EACFA /* ChartsViewController.swift in Sources */,
+				B8EF072B21B8F0AA00A020FD /* MapViewController.swift in Sources */,
 				B8EF06E021B8E67000A020FD /* AppDelegate.swift in Sources */,
 				B8EF06E821B8E67000A020FD /* MyBudget.xcdatamodeld in Sources */,
+				B8EF07F021BE1A1600A020FD /* BudgetTableViewCell.swift in Sources */,
+				B8EF072521B8EF0000A020FD /* AddBudgetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +633,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C7C8DA83Q8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyBudget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -511,7 +652,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C7C8DA83Q8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyBudget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
